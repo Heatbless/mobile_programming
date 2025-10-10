@@ -91,7 +91,7 @@ class _MainScreenState extends State<MainScreen> {
 }
 
 // =================================================================
-// Tiga Halaman Utama
+// 3 Halaman Utama
 // =================================================================
 
 // --- 1. Halaman Menu (Etalase) ---
@@ -117,18 +117,7 @@ class MenuScreen extends StatelessWidget {
           centerTitle: false,
           floating: true, // AppBar akan muncul kembali saat digulir ke bawah
           pinned: true,   // AppBar akan tetap berada di atas saat digulir ke atas
-          expandedHeight: 60, // Tinggi saat mengembang
-          // flexibleSpace: FlexibleSpaceBar(
-          //   titlePadding: const EdgeInsets.only(bottom: 16, left: 16),
-          //   title: const Text(
-          //     'Menu Pilihan',
-          //     style: TextStyle(
-          //       color: Colors.black87,
-          //       fontSize: 16,
-          //       fontWeight: FontWeight.w600,
-          //     ),
-          //   ),
-          // ),
+          expandedHeight: 60, // Tinggi header
           backgroundColor: Colors.white,
           actions: [
             // Tombol Keranjang
@@ -160,7 +149,7 @@ class MenuScreen extends StatelessWidget {
 
         // c. Daftar Produk (GridView)
         SliverPadding(
-          padding: const EdgeInsets.all(12.0), // <-- Tambahkan jarak di sini!
+          padding: const EdgeInsets.all(12.0),
           sliver: SliverGrid(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
