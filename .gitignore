@@ -11,7 +11,6 @@
 migrate_working_dir/
 
 *.swp
-profile
 
 DerivedData/
 
@@ -46,3 +45,7 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+
+# Environment files
+.env
+1.env
