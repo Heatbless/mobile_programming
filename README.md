@@ -98,8 +98,7 @@ mobile_programming/
 
 1. Create a `.env` file in the root directory:
 ```env
-API_BASE_URL=your_backend_api_url
-API_KEY=your_api_key
+API_URL=your_backend_api_url
 ```
 
 ## 🧪 Testing
